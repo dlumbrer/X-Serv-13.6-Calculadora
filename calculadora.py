@@ -16,6 +16,6 @@ else:
         elif(sys.argv[1] == 'multiplicar'):
             print float(sys.argv[2])*float(sys.argv[3])
         else:
-            print "Functions: sumar, restar, dividir, multiplicar" 
+            print "Functions: sumar, restar, dividir, multiplicar"
     except ZeroDivisionError:
         print "Imposible division"
